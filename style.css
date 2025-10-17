@@ -1,0 +1,382 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(35, 34, 34);
+    border: 4px solid black;
+    margin: 0,5%;
+}
+
+.wishlist{      /*div*/
+    width: 10%;
+    height: 50px;
+    background-color: rgb(35, 34, 34);
+    border: 2px solid white ;
+    border-radius: 7px;
+    margin-top: 1%;
+    margin-left: 3%;
+    
+}
+
+
+
+.Wishlist{   /*texte*/
+    font-size: 150%;
+    color: white;
+    text-align: center;
+    padding-top: 4%;
+    font-family: roboto
+}
+.Wishlist:hover{  /*chgmt couleur survol*/
+    color: rgb(177, 177, 177);
+}
+
+.communauté{   /*div*/
+    width: 15%;
+    height: 50px;
+    background-color: rgb(35, 34, 34);
+    border: 2px solid white ;
+    border-radius: 7px;
+    margin-top: -3%;
+    margin-left: 15%;
+}
+.Communauté{   /*texte*/
+    font-size: 150%;
+    color: white;
+    text-align: center;
+    padding-top: 4%;
+    font-family: roboto
+}
+.Communauté:hover{  /*chgmt couleur survol*/
+    color: rgb(177, 177, 177);
+}
+
+.rechercher{  /*div*/
+    width: 40%;
+    height: 50px;
+    background-color: rgb(35, 34, 34);
+    border: 2px solid rgb(35, 34, 34) ;
+    border-radius: 7px;
+    margin-top: -3%;
+    margin-left: 32%;
+}
+
+.BarreDeRecherche{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(35, 34, 34);
+    font-size: 100%;
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    margin-top: 0,5%;
+    padding-left: 2%;
+}
+
+.services{   /*div*/
+    width: 10%;
+    height: 50px;
+    background-color: rgb(35, 34, 34);
+    border: 2px solid white ;
+    border-radius: 7px;
+    margin-top: -3%;
+    margin-left: 75%;
+}
+.Services{   /*texte*/
+    font-size: 150%;
+    color: white;
+    text-align: center;
+    padding-top: 4%;
+    font-family: roboto
+}
+.Services:hover{  /*chgmt couleur survol*/
+    color: rgb(177, 177, 177);
+}
+
+.connexion{  /*div*/
+    width: 10%;
+    height: 50px;
+    background-color: rgb(35, 34, 34);
+    border: 2px solid white ;
+    border-radius: 7px;
+    margin-top: -3%;
+    margin-left: 87%;
+}
+.Connexion{   /*texte*/
+    font-size: 150%;
+    color: white;
+    text-align: center;
+    padding-top: 4%;
+    font-family: roboto
+}
+.Connexion:hover{  /*chgmt couleur survol*/
+    color: rgb(177, 177, 177);
+}
+
+.présentation{
+    width:100%;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    border: 4px solid black;
+    margin: 0,5%;
+}
+.titre{  /*div*/
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    border: 2px solid black ;
+    border-radius: 7px;
+    margin-top: 8%;
+}
+.StageCards{   /*texte*/
+    font-size: 350%;
+    color: white;
+    text-align: center;
+    font-family: roboto
+}
+.soustitre{   /*div*/
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    border: 2px solid black ;
+    border-radius: 7px;
+}
+.AchetezVendezÉchangez{   /*texte*/
+    font-size: 250%;
+    color: white;
+    text-align: center;
+    font-family: roboto
+}
+
+
+.blocs{   
+    background-color:  rgb(177, 177, 177);
+    border: 4px solid  rgb(35, 34, 34);
+}
+
+.bloc1{
+    width: 98%;
+    height: 400px;
+    background-color: whitesmoke;
+    border: 4px solid black;    
+    margin: 1%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.t1{
+    width: 20%;
+    height: 100px;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    margin-top: 10%;
+}
+.Ventes{    /*texte*/
+    font-size: 300%;
+    color: black;
+    font-family: roboto
+}
+.i1{
+    width: 18%;
+    height: 355px;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    margin-top: 1%;
+}
+.i2{
+    width: 18%;
+    height: 355px;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    margin-top: 1%;
+}
+.i3{
+    width: 18%;
+    height: 355px;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    margin-top: 1%;
+}
+
+
+
+.bloc2{ 
+    width: 98%;
+    height: 400px;
+    background-color: whitesmoke;
+    border: 4px solid black;    
+    margin: 1%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.t2{
+    width: 20%;
+    height: 100px;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    margin-top: 10%;
+}
+.Reventes{   /*texte*/
+    font-size: 300%;
+    color: black;
+    font-family: roboto
+}
+.i4{
+    width: 18%;
+    height: 355px;
+    background-color: white;
+    border: 2px solid black ;
+    margin-top: 1%;
+}
+.i5{
+    width: 18%;
+    height: 355px;
+    background-color: white;
+    border: 2px solid black ;
+    margin-top: 1%;
+}
+.i6{
+    width: 18%;
+    height: 355px;
+    background-color: white;
+    border: 2px solid black ;
+    margin-top: 1%;
+}
+
+
+
+.bloc3{
+    width: 98%;
+    height: 400px;
+    background-color: whitesmoke;
+    border: 4px solid black;    
+    margin: 1%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.t3{
+     width: 20%;
+    height: 100px;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    margin-top: 10%;
+}
+.Échanges{    /*texte*/
+    font-size: 300%;
+    color: black;
+    font-family: roboto
+}
+.i7{
+    width: 18%;
+    height: 355px;
+    background-color: white;
+    border: 2px solid black ;
+    margin-top: 1%;
+}
+.i8{
+    width: 18%;
+    height: 355px;
+    background-color: white;
+    border: 2px solid black ;
+    margin-top: 1%;
+}
+.i9{
+    width: 18%;
+    height: 355px;
+    background-color: white;
+    border: 2px solid black ;
+    margin-top: 1%;
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(35, 34, 34);
+    border: 4px solid rgb(35, 34, 34);    
+    margin: 0,5%;
+}
+
+.contact{   /*div*/
+    width: 40%;
+    height: 50px;
+    background-color: rgb(35, 34, 34);
+    border: 2px solid rgb(35, 34, 34) ;
+    border-radius: 7px;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+.Contact{   /*texte*/
+    font-size: 150%;
+    color: white;
+    text-align: left;
+    text-decoration: underline;
+}
+.Contact:hover{  /*chgmt couleur survol*/
+    color: rgb(177, 177, 177);
+}
+
+.mentions{    /*div*/
+    width: 40%;
+    height: 50px;
+    background-color: rgb(35, 34, 34);
+    border: 2px solid rgb(35, 34, 34) ;
+    border-radius: 7px;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+.Mentions{   /*texte*/
+    font-size: 150%;
+    color: white;
+    text-align: left;
+    text-decoration: underline;
+}
+.Mentions:hover{  /*chgmt couleur survol*/
+    color: rgb(177, 177, 177);
+}
+
+.sav{    /*div*/
+    width: 40%;
+    height: 50px;
+    background-color: rgb(35, 34, 34);
+    border: 2px solid rgb(35, 34, 34) ;
+    border-radius: 7px;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+.SAV{   /*texte*/
+    font-size: 150%;
+    color: white;
+    text-align: left;
+    text-decoration: underline;
+}
+.SAV:hover{  /*chgmt couleur survol*/
+    color: rgb(177, 177, 177);
+}
+
+.lien{   /*div*/
+    width: 40%;
+    height: 50px;
+    background-color: rgb(35, 34, 34);
+    border: 2px solid rgb(35, 34, 34) ;
+    border-radius: 7px;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+.Lien{  /*texte*/
+    font-size: 150%;
+    color: white;
+    text-align: left;
+    text-decoration: underline;
+}
+.Lien:hover{  /*chgmt couleur survol*/
+    color: rgb(177, 177, 177);
+}
