@@ -12,29 +12,51 @@
     margin: 0,5%;
 }
 
-.wishlist{      /*div*/
+.blue{      /*div*/
     width: 10%;
+    height: 50px;
+    background-color: rgb(35, 34, 34);
+    border: 2px solid rgb(35, 34, 34) ;
+    border-radius: 7px;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.Blue{   /*texte*/
+    height: 52px;
+    width: 150px;
+    font-size: 150%;
+    background-color: rgb(35, 34, 34);
+    color: white;
+    text-align: center;
+    padding-top: 4%;
+    font-family: roboto;
+    border: 2px solid white;
+    border-radius: 7px;
+}
+.Blue:hover{  /*chgmt couleur survol*/
+    color: rgb(177, 177, 177);
+}
+
+.want{      /*div*/
+    width: 5%;
     height: 50px;
     background-color: rgb(35, 34, 34);
     border: 2px solid white ;
     border-radius: 7px;
-    margin-top: 1%;
-    margin-left: 3%;
-    
+    margin-top: -3%;
+    margin-left: 12%;
 }
-
-
-
-.Wishlist{   /*texte*/
+.Want{   /*texte*/
     font-size: 150%;
     color: white;
     text-align: center;
     padding-top: 4%;
     font-family: roboto
 }
-.Wishlist:hover{  /*chgmt couleur survol*/
+.Want:hover{  /*chgmt couleur survol*/
     color: rgb(177, 177, 177);
 }
+
 
 .communauté{   /*div*/
     width: 15%;
@@ -43,7 +65,7 @@
     border: 2px solid white ;
     border-radius: 7px;
     margin-top: -3%;
-    margin-left: 15%;
+    margin-left: 19%;
 }
 .Communauté{   /*texte*/
     font-size: 150%;
@@ -63,7 +85,7 @@
     border: 2px solid rgb(35, 34, 34) ;
     border-radius: 7px;
     margin-top: -3%;
-    margin-left: 32%;
+    margin-left: 36%;
 }
 
 .BarreDeRecherche{
@@ -79,13 +101,13 @@
 }
 
 .services{   /*div*/
-    width: 10%;
+    width: 15%;
     height: 50px;
     background-color: rgb(35, 34, 34);
     border: 2px solid white ;
     border-radius: 7px;
     margin-top: -3%;
-    margin-left: 75%;
+    margin-left: 78%;
 }
 .Services{   /*texte*/
     font-size: 150%;
@@ -98,24 +120,16 @@
     color: rgb(177, 177, 177);
 }
 
-.connexion{  /*div*/
-    width: 10%;
-    height: 50px;
-    background-color: rgb(35, 34, 34);
-    border: 2px solid white ;
-    border-radius: 7px;
-    margin-top: -3%;
-    margin-left: 87%;
-}
-.Connexion{   /*texte*/
-    font-size: 150%;
-    color: white;
-    text-align: center;
-    padding-top: 4%;
-    font-family: roboto
-}
-.Connexion:hover{  /*chgmt couleur survol*/
-    color: rgb(177, 177, 177);
+.profil{   /*image/div*/
+    width: 4%;
+    height: 75%;
+    background-color: white;
+    border: 3px solid white;
+    margin-left: 95%;
+    margin-top: -3.5%;
+    border-radius: 80%;
+    background-image: url(pdp.jpg);
+    background-size: cover
 }
 
 .présentation{
@@ -379,4 +393,150 @@
 }
 .Lien:hover{  /*chgmt couleur survol*/
     color: rgb(177, 177, 177);
+}
+
+
+
+
+/*bluemode*/
+.bluemode{
+    background-color: blue;
+    color: aqua;
+}
+
+/* Tous les titres deviennent bleus */
+.bluemode h1, 
+.bluemode h2, 
+.bluemode p, 
+.bluemode a {
+    color: #5784c2;
+}
+
+/* Header et footer en version bleue */
+.bluemode .header,
+.bluemode .footer {
+    background-color: rgb(61, 61, 243);
+    border-color: rgb(61, 61, 243)
+}
+
+/*div header deviennent bleues*/
+.bluemode .want,
+.bluemode .communauté,
+.bluemode .services{
+    background-color: rgb(61, 61, 243);
+}
+
+.bluemode .blue,
+.bluemode .rechercher{
+    background-color: rgb(61, 61, 243);
+    border-color: rgb(61, 61, 243);
+}
+
+.bluemode .BarreDeRecherche{
+    background-color: rgb(61, 61, 243);
+}
+
+
+
+/*div ds footer en version bleue*/
+.bluemode .contact,
+.bluemode .mentions,
+.bluemode .sav,
+.bluemode .lien {
+    background-color: rgb(61, 61, 243);
+    border-color: rgb(61, 61, 243);
+}
+
+/*div présentation deviennet bleues*/
+.bluemode .présentation,
+.bluemode .titre,
+.bluemode .soustitre{
+    background-color: #152862;
+    border-color: #152862;
+}
+
+
+/*div blocs dvient bleue*/
+.bluemode .blocs{
+    background-color: #57648a;
+    border-color: #57648a;
+}
+
+
+/* Blocs blancs deviennent bleu clair */
+.bluemode .bloc1,
+.bluemode .bloc2,
+.bluemode .bloc3 {
+    background-color: rgb(203, 206, 244);
+    border-color: rgb(203, 206, 244);
+}
+
+/*tx blancs deviennent bleu clair*/
+.bluemode .t1,
+.bluemode .t2,
+.bluemode .t3 {
+    background-color: rgb(203, 206, 244);
+    border-color: rgb(203, 206, 244);
+}
+
+/*div img deviennent bleu clair*/
+.bluemode .i1,
+.bluemode .i2,
+.bluemode .i3,
+.bluemode .i4,
+.bluemode .i5,
+.bluemode .i6,
+.bluemode .i7,
+.bluemode .i8,
+.bluemode .i9 {
+    background-color: rgb(203, 206, 244);
+    border-color: rgb(203, 206, 244);
+}
+
+/* Bouton en mode bleu */
+.bluemode .Blue {
+    background-color: rgb(61, 61, 243);
+    border-color: white;
+    color: #5784c2;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.header {
+    position: relative;  /* nécessaire pour que les tabs en absolute se placent par rapport au header */
+    overflow: visible;   /* permet aux tabs de dépasser le header */
+}
+
+/* parent relatif pour que la tab se positionne correctement */
+.want, .services, .profil {
+    position: relative;
+}
+
+/* style de la tab */
+.tab {
+    visibility: hidden;           /* cachée par défaut */
+    background-color: rgb(61, 61, 243);
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 10px;
+    position: absolute;           /* pour se positionner au-dessus des autres éléments */
+    top: 100%;                    /* juste en dessous du parent */
+    left: 0;
+    width: max-content;           /* s’adapte au contenu */
+    z-index: 10;                  /* au-dessus des autres éléments */
+}
+
+/* fait apparaître la tab au survol du parent */
+.want:hover .tab,
+.services:hover .tab,
+.profil:hover .tab {
+    visibility: visible;
 }
