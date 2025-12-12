@@ -511,11 +511,11 @@ button{
 
 
 .header {
-    position: relative;  /* nécessaire pour que les tabs en absolute se placent par rapport au header */
-    overflow: visible;   /* permet aux tabs de dépasser le header */
+    position: relative;  
+    overflow: visible;   
 }
 
-/* parent relatif pour que la tab se positionne correctement */
+
 .want, .services, .profil {
     position: relative;
 }
@@ -523,7 +523,9 @@ button{
 /* style de la tab */
 .tab {
     visibility: hidden;           /* cachée par défaut */
-    background-color: rgb(61, 61, 243);
+    background-color: rgb(35, 34, 34);
+    color: white;
+    font-family: roboto;
     border: 2px solid white;
     border-radius: 7px;
     padding: 10px;
@@ -534,9 +536,14 @@ button{
     z-index: 10;                  /* au-dessus des autres éléments */
 }
 
-/* fait apparaître la tab au survol du parent */
+/* apparaître au survol */
 .want:hover .tab,
 .services:hover .tab,
 .profil:hover .tab {
     visibility: visible;
+}
+
+/*tabs en bluemode*/
+.bluemode .tab {
+    background-color: rgb(61, 61, 243);
 }
